@@ -1,8 +1,15 @@
-ProjectName
+KpcKara
 ===
 
 ## Description
 
+a application template based by sinatra(padrino).
+
++ guard
+    * scss compiling
+    * auto reload
++ cap deploy (no impl)
++ administrator ('admin' branch)
 
 ## Requirement
 
