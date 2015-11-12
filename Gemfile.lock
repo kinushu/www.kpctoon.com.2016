@@ -31,8 +31,12 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     diff-lcs (1.2.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     enumerable-lazy (0.0.1)
     erubis (2.7.0)
+    eventmachine (1.0.8)
     ffi (1.9.10)
     formatador (0.2.5)
     guard (2.13.0)
@@ -47,10 +51,17 @@ GEM
     guard-compass (1.1.0)
       compass (>= 0.10.5)
       guard (~> 2.0)
+    guard-compat (1.2.1)
+    guard-livereload (2.5.1)
+      em-websocket (~> 0.5)
+      guard (~> 2.8)
+      guard-compat (~> 1.0)
+      multi_json (~> 1.8)
     guard-shotgun (0.4.0)
       ffi
       guard (~> 2.0)
       spoon
+    http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.3)
     listen (3.0.4)
@@ -111,6 +122,8 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.6.4)
+    rack-livereload (0.3.16)
+      rack
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
@@ -161,8 +174,10 @@ DEPENDENCIES
   erubis (~> 2.7.0)
   guard (~> 2.0)
   guard-compass
+  guard-livereload
   guard-shotgun
   padrino (= 0.13.0)
+  rack-livereload
   rack-test
   rake
   rspec

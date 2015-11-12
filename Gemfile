@@ -32,6 +32,9 @@ group :development do
   gem "guard", "~> 2.0", require: false
   gem "guard-shotgun"
   gem "guard-compass"
+
+  gem "rack-livereload"
+  gem "guard-livereload", require: false
 end
 
 # Padrino Stable Gem
