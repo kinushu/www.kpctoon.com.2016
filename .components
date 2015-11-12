@@ -1,0 +1,9 @@
+---
+:orm: activerecord
+:test: rspec
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: scss
+:namespace: Kpckara
+:migration_format: number
