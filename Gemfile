@@ -28,6 +28,10 @@ gem 'rack-test', :require => 'rack/test', :group => 'test'
 
 group :development do
   gem 'shotgun'
+
+  gem "guard", "~> 2.0", require: false
+  gem "guard-shotgun"
+  gem "guard-compass"
 end
 
 # Padrino Stable Gem
