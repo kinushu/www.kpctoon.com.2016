@@ -52,6 +52,11 @@ module Kpckara
     #   end
     #
 
+  # トップページ
+  get '/' do
+    erb :top, :layout => :default
+  end
+
     ##
     # You can manage errors like:
     #
