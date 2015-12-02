@@ -7,6 +7,10 @@ module Kpckara
 
     enable :sessions
 
+    before do
+      @app_config = settings.config
+    end
+
     # トップページ
     get '/' do
       erb :top, :layout => :default
