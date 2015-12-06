@@ -19,6 +19,9 @@ a application template based by sinatra(padrino).
 bundle exec guard -i
 ```
 
+accces to:
+http://localhost:9393
+
 ## Install
 
 ```
