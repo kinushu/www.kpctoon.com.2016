@@ -33,7 +33,7 @@ app/views
 
 ### Assets
 
-scss files in 'assets' is compiled to 'public/css'
+scss files in 'assets/scss/' is compiled to 'public/css'
 
 ## Licence
 
