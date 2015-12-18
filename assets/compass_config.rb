@@ -1,6 +1,6 @@
-http_path = "/"
-sass_dir = "scss"
+http_path = '/'
+sass_dir = 'scss'
 
-css_dir = "../public/css"
+css_dir = '../public/css'
 
 line_comments = false

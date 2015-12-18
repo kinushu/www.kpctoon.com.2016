@@ -13,8 +13,7 @@ module Kpckara
 
     # トップページ
     get '/' do
-      erb :top, :layout => :default
+      erb :top, layout: :default
     end
-
   end
 end

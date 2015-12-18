@@ -14,20 +14,20 @@
 #   }
 #
 ActiveRecord::Base.configurations[:development] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'kpckara_development.db')
+  adapter: 'sqlite3',
+  database: Padrino.root('db', 'kpckara_development.db')
 
 }
 
 ActiveRecord::Base.configurations[:production] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'kpckara_production.db')
+  adapter: 'sqlite3',
+  database: Padrino.root('db', 'kpckara_production.db')
 
 }
 
 ActiveRecord::Base.configurations[:test] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'kpckara_test.db')
+  adapter: 'sqlite3',
+  database: Padrino.root('db', 'kpckara_test.db')
 
 }
 

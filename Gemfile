@@ -19,22 +19,24 @@ gem 'rake'
 # Component requirements
 gem 'sass'
 gem 'erubis', '~> 2.7.0'
-gem 'activerecord', '>= 3.1', :require => 'active_record'
+gem 'activerecord', '>= 3.1', require: 'active_record'
 gem 'sqlite3'
 
 # Test requirements
-gem 'rspec', :group => 'test'
-gem 'rack-test', :require => 'rack/test', :group => 'test'
+gem 'rspec', group: 'test'
+gem 'rack-test', require: 'rack/test', group: 'test'
 
 group :development do
   gem 'shotgun'
 
-  gem "guard", "~> 2.0", require: false
-  gem "guard-shotgun"
-  gem "guard-compass"
+  gem 'guard', '~> 2.0', require: false
+  gem 'guard-shotgun'
+  gem 'guard-compass'
 
-  gem "rack-livereload"
-  gem "guard-livereload", require: false
+  gem 'rack-livereload'
+  gem 'guard-livereload', require: false
+
+  gem 'rubocop'
 end
 
 # Padrino Stable Gem

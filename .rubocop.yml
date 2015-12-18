@@ -1,0 +1,73 @@
+
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 80
+  Exclude:
+    - 'config/apps.rb'
+    - 'spec/**/*'
+    - 'config/database.rb'
+    - 'assets/compass_config.rb'
+    - 'Guardfile'
+
+Style/AsciiComments:
+  Enabled: false
+
+# Offense count: 4
+Lint/UselessAssignment:
+  Exclude:
+    - 'assets/compass_config.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLines:
+  Enabled: true
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: true
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: true
+
+Style/ExtraSpacing:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/IndentHash:
+  Enabled: true
+
+Style/IndentationConsistency:
+  Enabled: true
+
+Style/IndentationWidth:
+  Enabled: true
+
+Style/LeadingCommentSpace:
+  Enabled: true
+
+Style/RegexpLiteral:
+  Enabled: true
+
+Style/SpaceAroundOperators:
+  Enabled: true
+
+Style/SpaceBeforeBlockBraces:
+  Enabled: true
+
+Style/SpaceInsideBlockBraces:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/Tab:
+  Enabled: true
+
+Style/TrailingBlankLines:
+  Enabled: true
+
+Style/TrailingComma:
+  Exclude:
+    - 'config/apps.rb'
