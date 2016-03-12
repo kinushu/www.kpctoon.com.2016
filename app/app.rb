@@ -25,5 +25,9 @@ module Kpckara
     get '/' do
       erb :top, layout: :default
     end
+
+    get '/2016-04-25lavion/' do
+      erb :top, layout: :default
+    end
   end
 end
