@@ -8,3 +8,4 @@ db/*.db
 .*.sw*
 readme.html
 .idea
+.ruby-version
